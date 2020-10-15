@@ -1,8 +1,12 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import React from 'react';
+import Layout from '../components/layout/Layout';
 
-export default function Home() {
-  return (
-    <h1>Inicio</h1>
-  )
-}
+const Home = () => (
+    <div>
+      <Layout>
+        <h1>Inicio</h1>
+      </Layout>
+    </div>
+);
+
+export default Home;

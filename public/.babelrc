@@ -1,0 +1,9 @@
+{
+    "presets": [
+        "next/babel",
+        "@emotion/babel-presets-css-prop"
+    ],
+    "plugins": [
+        "emotion"
+    ]    
+}
