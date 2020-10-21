@@ -1,8 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import styled from '@emotion/styled';
-import { css } from '@emotion/core';
-import { jsx } from '@emotion/core';
+import { css, jsx } from '@emotion/core';
 
 import Search from '../ui/Search';
 import Navigation from './Navigation';
